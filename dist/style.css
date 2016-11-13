@@ -1,0 +1,54 @@
+body, html {
+	height: 100%;
+}
+
+.wrapper {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.frame {
+	margin: 10px 0;
+	width: 30%;
+	min-height: 200px;
+	background: #f9f9f9;
+	transition: all 1s ease;
+}
+
+.landscape {
+	width: 360px;
+	height: 255px;
+}
+
+.portrait {
+	width: 360px;
+	height: 360px;
+}
+
+img.b-loaded {
+ 	animation: fadeIn 1.15s ease;
+}
+
+@-webkit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
